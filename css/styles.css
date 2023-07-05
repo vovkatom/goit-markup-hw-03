@@ -23,6 +23,38 @@ body {
   letter-spacing: 0.32px;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  display: block;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1440px;
+  /* padding-left:   */
+  /* padding-right:   */
+  /* margin-left:   */
+  /* margin-right:   */
+  background-color: #31d0aa;
+}
+
+/* .header-nav {
+  flex-basis: auto;
+  margin-top: 202px;
+} */
+
+.hero {
+  background: var(--dark, #2e2f42);
+  margin-top: 72px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -88,10 +120,6 @@ body {
 
 .header-addres-link {
   color: var(--text, #434455);
-}
-
-.hero {
-  background: var(--dark, #2e2f42);
 }
 
 .hero-title {
