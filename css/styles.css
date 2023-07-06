@@ -53,7 +53,8 @@ ul {
 }
 
 .header-nav,
-.addres-flex {
+.addres-flex,
+.header-nav .list {
   /* розташування пунктів меню по горизонталі */
   display: flex;
   /* для визначення відступів між пунктами меню (можна використовувати margin-right: 40px 
@@ -69,7 +70,7 @@ ul {
 }
 
 .header-flex {
-  border-bottom: 1px solid var( --accent, #e7e9fc);
+  border-bottom: 1px solid var(--accent, #e7e9fc);
 }
 
 .hero {
