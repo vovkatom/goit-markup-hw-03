@@ -31,13 +31,20 @@ ul {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 ul {
   display: block;
   padding-left: 0;
 }
 
 .container {
-  max-width: 1440px;
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   /* padding-left:   */
   /* padding-right:   */
   /* margin-left:   */
@@ -45,10 +52,21 @@ ul {
   background-color: #31d0aa;
 }
 
-/* .header-nav {
-  flex-basis: auto;
-  margin-top: 202px;
-} */
+.header-nav,
+.addres-flex {
+  /* розташування пунктів меню по горизонталі */
+  display: flex;
+  /* для визначення відступів між пунктами меню (можна використовувати margin-right: 40px 
+  для тега li у класі, для останього li використовуємо margin-right: 0 для обнулення відступів */
+  gap: 40px;
+  /* для визначення відступів всередині посилання (можна використовувати аналог padding: 24px 0 24px 
+  або padding-top: 24px; та padding-bottom: 24px;) */
+  padding: 24px 0;
+  /* Центруєм по поперечній осі */
+  align-items: center;
+  /* flex-basis: auto; */
+  /* margin-top: 202px; */
+}
 
 .hero {
   background: var(--dark, #2e2f42);
@@ -70,6 +88,8 @@ ul {
 
 .header-logo-web,
 .footer-logo-web {
+  margin-right: 76px;
+
   color: var(--primary-Brand, #4d5ae5);
   font-weight: 800;
   font-size: 18px;
