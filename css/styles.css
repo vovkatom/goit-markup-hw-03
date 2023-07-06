@@ -54,7 +54,8 @@ ul {
 
 .header-nav,
 .addres-flex,
-.header-nav .list {
+.header-nav .list,
+.header-flex {
   /* розташування пунктів меню по горизонталі */
   display: flex;
   /* для визначення відступів між пунктами меню (можна використовувати margin-right: 40px 
