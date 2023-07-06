@@ -68,6 +68,10 @@ ul {
   /* margin-top: 202px; */
 }
 
+.header-flex {
+  border-bottom: 1px solid var( --accent, #e7e9fc);
+}
+
 .hero {
   background: var(--dark, #2e2f42);
   margin-top: 72px;
