@@ -146,15 +146,25 @@ img {
 }
 
 .hero {
+  padding: 188px 0;
   background: var(--dark, #2e2f42);
 }
 
 .hero-title {
+  max-width: 496px;
   color: var(--white-background, #fff);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.hero-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button,
