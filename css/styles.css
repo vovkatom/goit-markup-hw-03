@@ -83,11 +83,11 @@ img {
 }
 
 /* .container .link {
-  /* padding: 24px 0; */
+  
 } */
 
 .header {
-  border-bottom: 1px solid var(--accent , #e7e9fc);
+  border-bottom: 1px solid var(--accent, #e7e9fc);
 }
 
 .header-logo-web,
