@@ -77,9 +77,9 @@ img {
   або padding-top: 24px; та padding-bottom: 24px;) */
   /* padding: 24px 0; */
   /* Центруєм по поперечній осі */
-  align-items: center;
+  /* align-items: center; */
   flex-basis: auto;
-  /* margin-top: 202px; */
+  /* margin-top: 20px; */
 }
 
 .container .link {
@@ -196,16 +196,51 @@ img {
   color: var(--dark, #2e2f42);
 }
 
-.main-features {
+.main-features,
+.main-what,
+.main-team {
   padding: 120px 0 120px;
 }
 
-.main-features .list {
+.main-features .list,
+.main-what .list,
+.main-team .list {
   gap: 24px;
-  
 }
 
-.main-teg-pades,
+.main-features-lists,
+.main-team-photo {
+  width: calc((100% - 72px) / 4);
+}
+
+.main-team-photo {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-tead {
+  padding: 32px 16px;
+}
+
+.name-tead,
+.main-team .text {
+  text-align: center;
+}
+
+.main-what-lists {
+  width: calc((100% - 48px) / 3);
+}
+
+.main-features-title,
+.name-tead {
+  margin-bottom: 8px;
+}
+
+.main-what-pades,
+.main-team-pages {
+  margin-bottom: 72px;
+}
+
+.main-what-pades,
 .main-team-pages {
   font-size: 36px;
   line-height: 1.11;
@@ -231,8 +266,18 @@ img {
   color: var(--text, #434455);
 }
 
-footer {
+.footer {
+  padding: 100px 0;
   background-color: var(--dark, #2e2f42);
+}
+
+.footer .link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
 }
 
 .footer-logo-studio,
