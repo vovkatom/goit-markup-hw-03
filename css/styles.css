@@ -77,7 +77,7 @@ img {
   або padding-top: 24px; та padding-bottom: 24px;) */
   /* padding: 24px 0; */
   /* Центруєм по поперечній осі */
-  /* align-items: center; */
+  align-items: center;
   flex-basis: auto;
   /* margin-top: 20px; */
 }
