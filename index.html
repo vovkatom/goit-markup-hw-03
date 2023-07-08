@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -19,19 +20,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
 
   <body>
-    <header class="header-flex">
+    <header>
       <div class="container">
-        <nav class="header-nav">
+        <nav class="header-nav flexbox">
           <a class="header-logo-web link" href="./index.html"
             >Web<span class="header-logo-studio">Studio</span></a
           >
 
-          <ul class="list">
+          <ul class="list flexbox">
             <li>
               <a class="header-nav-link link" href="./index.html">Studio</a>
             </li>
@@ -45,7 +45,7 @@
         </nav>
 
         <address class="header-addres">
-          <ul class="list addres-flex">
+          <ul class="list flexbox">
             <li>
               <a
                 class="header-addres-link link"
@@ -66,136 +66,128 @@
 
     <main>
       <section class="hero list">
-        <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button" name="show_more">
-            Order Service
-          </button>
-        </div>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button" name="show_more">
+          Order Service
+        </button>
       </section>
 
       <section class="main-features list">
-        <div class="container">
-          <h2 class="visually-hidden">Features</h2>
-          <ul class="list">
-            <li>
-              <h3 class="main-features-title">Strategy</h3>
-              <p class="main-features-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
+        <h2 class="visually-hidden">Features</h2>
+        <ul class="list">
+          <li>
+            <h3 class="main-features-title">Strategy</h3>
+            <p class="main-features-text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
 
-            <li>
-              <h3 class="main-features-title">Punctuality</h3>
-              <p class="main-features-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
+          <li>
+            <h3 class="main-features-title">Punctuality</h3>
+            <p class="main-features-text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
 
-            <li>
-              <h3 class="main-features-title">Diligence</h3>
-              <p class="main-features-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
+          <li>
+            <h3 class="main-features-title">Diligence</h3>
+            <p class="main-features-text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
 
-            <li>
-              <h3 class="main-features-title">Technologies</h3>
-              <p class="main-features-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <h3 class="main-features-title">Technologies</h3>
+            <p class="main-features-text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section class="main-what list">
-        <div class="container">
-          <h2 class="main-teg-pades">What are we doing</h2>
-          <ul class="list">
-            <li>
-              <img
-                src="./images/desktop.jpg"
-                alt="Correct display of the site on the computer"
-                width="360"
-                height="300"
-              />
-            </li>
+        <h2 class="main-teg-pades">What are we doing</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/desktop.jpg"
+              alt="Correct display of the site on the computer"
+              width="360"
+              height="300"
+            />
+          </li>
 
-            <li>
-              <img
-                src="./images/mobile.jpg"
-                alt="Correct display of the site on a mobile device"
-                width="360"
-                height="300"
-              />
-            </li>
+          <li>
+            <img
+              src="./images/mobile.jpg"
+              alt="Correct display of the site on a mobile device"
+              width="360"
+              height="300"
+            />
+          </li>
 
-            <li>
-              <img
-                src="./images/desktop-mobile.jpg"
-                alt="Interaction of a computer with a mobile device"
-                width="360"
-                height="300"
-              />
-            </li>
-          </ul>
-        </div>
+          <li>
+            <img
+              src="./images/desktop-mobile.jpg"
+              alt="Interaction of a computer with a mobile device"
+              width="360"
+              height="300"
+            />
+          </li>
+        </ul>
       </section>
 
       <section class="main-team list">
-        <div class="container">
-          <h2 class="main-team-pages">Our Team</h2>
-          <ul class="list">
-            <li class="main-team-photo">
-              <img
-                src="./images/mark-guerrero.jpg"
-                alt="photo by Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <h3 class="main-team-title">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
-            </li>
+        <h2 class="main-team-pages">Our Team</h2>
+        <ul class="list">
+          <li class="main-team-photo">
+            <img
+              src="./images/mark-guerrero.jpg"
+              alt="photo by Mark Guerrero"
+              width="264"
+              height="260"
+            />
+            <h3 class="main-team-title">Mark Guerrero</h3>
+            <p class="text">Product Designer</p>
+          </li>
 
-            <li class="main-team-photo">
-              <img
-                src="./images/tom-ford.jpg"
-                alt="photo by Tom Ford"
-                width="264"
-                height="260"
-              />
-              <h3 class="main-team-title">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
-            </li>
+          <li class="main-team-photo">
+            <img
+              src="./images/tom-ford.jpg"
+              alt="photo by Tom Ford"
+              width="264"
+              height="260"
+            />
+            <h3 class="main-team-title">Tom Ford</h3>
+            <p class="text">Frontend Developer</p>
+          </li>
 
-            <li class="main-team-photo">
-              <img
-                src="./images/camila-garcia.jpg"
-                alt="photo by Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <h3 class="main-team-title">Camila Garcia</h3>
-              <p class="text">Marketing</p>
-            </li>
+          <li class="main-team-photo">
+            <img
+              src="./images/camila-garcia.jpg"
+              alt="photo by Camila Garcia"
+              width="264"
+              height="260"
+            />
+            <h3 class="main-team-title">Camila Garcia</h3>
+            <p class="text">Marketing</p>
+          </li>
 
-            <li class="main-team-photo">
-              <img
-                src="./images/daniel-wilson.jpg"
-                alt="photo by Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <h3 class="main-team-title">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
-            </li>
-          </ul>
-        </div>
+          <li class="main-team-photo">
+            <img
+              src="./images/daniel-wilson.jpg"
+              alt="photo by Daniel Wilson"
+              width="264"
+              height="260"
+            />
+            <h3 class="main-team-title">Daniel Wilson</h3>
+            <p class="text">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
