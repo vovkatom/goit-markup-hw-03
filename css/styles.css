@@ -82,8 +82,17 @@ img {
   /* margin-top: 202px; */
 }
 
+/* .container .link {
+  /* padding: 24px 0; */
+} */
+
+.header {
+  border-bottom: 1px solid var(--accent , #e7e9fc);
+}
+
 .header-logo-web,
 .footer-logo-web {
+  margin-right: 76px;
   color: var(--primary-Brand, #4d5ae5);
   font-weight: 800;
   font-size: 18px;
