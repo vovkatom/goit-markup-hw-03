@@ -62,7 +62,7 @@ img {
   /* padding-left:   */
   /* padding-right:   */
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   /* background-color: #31d0aa; */
 }
 
@@ -157,7 +157,6 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .hero-button {
@@ -221,15 +220,7 @@ img {
   padding: 32px 16px;
 }
 
-.name-tead,
-.main-team .text {
-  text-align: center;
-}
-
-/* .main-what-item {
-  width: calc((100% - 48px) / 3);
-} */
-
+.main-features-title,
 .main-team-title,
 .name-tead {
   margin-bottom: 8px;
@@ -245,9 +236,16 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   text-transform: capitalize;
   color: var(--dark, #2e2f42);
+}
+
+.hero-title,
+.main-what-pades,
+.main-team-pages,
+.main-team-title,
+.name-tead {
+  text-align: center;
 }
 
 .main-team {
