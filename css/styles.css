@@ -70,6 +70,7 @@ img {
   /* background-color: #31d0aa; */
   /* розташування пунктів меню по горизонталі */
   display: flex;
+  flex-wrap: wrap;
   /* для визначення відступів між пунктами меню (можна використовувати margin-right: 40px 
   для тега li у класі, для останього li використовуємо margin-right: 0 для обнулення відступів */
   gap: 40px;
@@ -208,9 +209,8 @@ img {
   gap: 24px;
 }
 
-.main-features-lists,
-.main-team-photo {
-  width: calc((100% - 3 * 24px) / 4);
+.main-features-lists {
+  width: calc((100% - 72px) / 4);
 }
 
 .main-team-photo {
