@@ -196,6 +196,15 @@ img {
   color: var(--dark, #2e2f42);
 }
 
+.main-features {
+  padding: 120px 0 120px;
+}
+
+.main-features .list {
+  gap: 24px;
+  
+}
+
 .main-teg-pades,
 .main-team-pages {
   font-size: 36px;
