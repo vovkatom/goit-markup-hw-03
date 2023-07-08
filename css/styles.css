@@ -61,8 +61,8 @@ img {
   padding: 0 15px;
   /* padding-left:   */
   /* padding-right:   */
-  /* margin-left:   */
-  /* margin-right:   */
+  margin-left: auto;
+  margin-right: auto;  
   /* background-color: #31d0aa; */
 }
 
@@ -210,7 +210,8 @@ img {
 }
 
 .main-features-lists {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .main-team-photo {
