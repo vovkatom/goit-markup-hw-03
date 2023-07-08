@@ -70,7 +70,7 @@ img {
   /* background-color: #31d0aa; */
   /* розташування пунктів меню по горизонталі */
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* для визначення відступів між пунктами меню (можна використовувати margin-right: 40px 
   для тега li у класі, для останього li використовуємо margin-right: 0 для обнулення відступів */
   gap: 40px;
@@ -136,6 +136,7 @@ img {
 .portfolio-button:focus {
   color: var(--white-background, #ffffff);
   background-color: var(--pressed-state, #404bbf);
+  border: 1px solid transparent;
 }
 
 .header-addres {
@@ -183,6 +184,9 @@ img {
 .portfolio-button {
   background-color: var(--light, #f4f4fd);
   color: var(--primary-Brand, #4d5ae5);
+  padding: 12px 24px;
+  border: 1px solid var(--accent, #e7e9fc);
+  border-radius: 4px;
 }
 
 .main-features-title,
@@ -286,10 +290,11 @@ img {
 }
 
 .portfolio-filters {
-  padding-top: 96px; 
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
 .portfolio-filters .list {
   justify-content: center;
+  row-gap: 48px;
 }
