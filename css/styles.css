@@ -75,16 +75,16 @@ img {
   gap: 40px;
   /* для визначення відступів всередині посилання (можна використовувати аналог padding: 24px 0 24px 
   або padding-top: 24px; та padding-bottom: 24px;) */
-  padding: 24px 0;
+  /* padding: 24px 0; */
   /* Центруєм по поперечній осі */
   align-items: center;
   flex-basis: auto;
   /* margin-top: 202px; */
 }
 
-/* .container .link {
-  
-} */
+.container .link {
+  padding: 24px 0;
+}
 
 .header {
   border-bottom: 1px solid var(--accent, #e7e9fc);
