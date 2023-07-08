@@ -208,8 +208,12 @@ img {
   gap: 24px;
 }
 
-.main-features-lists,
+/* .main-features-lists,
 .main-team-photo {
+  width: calc((100% - 72px) / 4);
+  background-color: #404bbf;
+} */
+.main-features-lists {
   width: calc((100% - 72px) / 4);
 }
 
@@ -226,11 +230,11 @@ img {
   text-align: center;
 }
 
-.main-what-lists {
+/* .main-what-lists {
   width: calc((100% - 48px) / 3);
-}
+} */
 
-.main-features-title,
+.main-team-title,
 .name-tead {
   margin-bottom: 8px;
 }
