@@ -221,8 +221,8 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.portfolio-filters .item {
-  flex-basis: calc((100% - 48px) / 3);
+.main-what-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .main-team-photo {
@@ -305,7 +305,4 @@ img {
 .portfolio-filters .list {
   justify-content: center;
   row-gap: 48px;
-}
-
-.portfolio-filters {
 }
