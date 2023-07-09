@@ -93,6 +93,10 @@ img {
   padding: 24px 0;
 }
 
+.container .list {
+  gap: 40px;
+}
+
 .header {
   border-bottom: 1px solid var(--accent, #e7e9fc);
 }
