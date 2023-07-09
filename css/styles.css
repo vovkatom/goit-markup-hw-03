@@ -161,6 +161,7 @@ img {
 }
 
 .hero-button {
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -214,7 +215,6 @@ img {
 
 .main-features-item,
 .main-team-item {
-  /* flex-basis: calc((100% - 72px) / 4); */
   width: calc((100% - 72px) / 4);
 }
 
