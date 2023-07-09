@@ -49,11 +49,6 @@ img {
   display: block;
 }
 
-/* ul {
-  display: block;
-  padding-left: 0;
-} */
-
 .container {
   /* display: flex; */
   max-width: 1158px;
@@ -66,14 +61,15 @@ img {
   /* background-color: #31d0aa; */
 }
 
-.header .container {
+.header .container,
+.flexbox {
   display: flex;
 }
 
 .flexbox {
   /* background-color: #31d0aa; */
   /* розташування пунктів меню по горизонталі */
-  display: flex;
+  /* display: flex; */
   /*flex-wrap: wrap;*/
   /* для визначення відступів між пунктами меню (можна використовувати margin-right: 40px 
   для тега li у класі, для останього li використовуємо margin-right: 0 для обнулення відступів */
@@ -165,7 +161,6 @@ img {
 }
 
 .hero-button {
-  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -194,7 +189,7 @@ img {
 }
 
 .main-features-title,
-.main-team-photo,
+.main-team-item,
 .main-team-title,
 .portfolio-project-title {
   font-weight: 500;
@@ -217,15 +212,17 @@ img {
   gap: 24px;
 }
 
-.main-features-item {
-  flex-basis: calc((100% - 72px) / 4);
+.main-features-item,
+.main-team-item {
+  /* flex-basis: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
 }
 
 .main-what-item {
   width: calc((100% - 48px) / 3);
 }
 
-.main-team-photo {
+.main-team-item {
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -258,7 +255,8 @@ img {
 .main-what-pades,
 .main-team-pages,
 .main-team-title,
-.name-tead {
+.name-tead,
+.hero .container {
   text-align: center;
 }
 
@@ -267,7 +265,7 @@ img {
   background-color: var(--light, #f4f4fd);
 }
 
-.main-team-photo {
+.main-team-item {
   background-color: var(--white-background, #ffffff);
 }
 
@@ -305,4 +303,5 @@ img {
 .portfolio-filters .list {
   justify-content: center;
   row-gap: 48px;
+  gap: 24px;
 }
