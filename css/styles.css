@@ -42,7 +42,7 @@ h3,
 p,
 ul {
   margin: 0;
-  /* padding: 0; */
+  padding: 0;
 }
 
 img {
@@ -55,7 +55,7 @@ img {
 } */
 
 .container {
-  display: flex;
+  /* display: flex; */
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -64,6 +64,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   /* background-color: #31d0aa; */
+}
+
+.header .container {
+  display: flex;
 }
 
 .flexbox {
