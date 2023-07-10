@@ -50,7 +50,6 @@ img {
 }
 
 .container {
-  /* display: flex; */
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -58,30 +57,25 @@ img {
   /* padding-right:   */
   margin-left: auto;
   margin-right: auto;
-  /* background-color: #31d0aa; */
 }
 
 .header .container,
 .flexbox,
-.portfolio .list {
+.portfolio .button,
+.portfolio .card {
   display: flex;
-}
-
-.portfolio .list {
-  flex-wrap: wrap;
-  row-gap: 48px;
 }
 
 .flexbox {
   align-items: center;
-  /* flex-basis: auto; */
 }
 
 .container .link {
   padding: 24px 0;
 }
 
-.container .list {
+.header-nav .list,
+.header-addres .list {
   gap: 40px;
 }
 
@@ -165,6 +159,7 @@ img {
   border: none;
   border-radius: 4px;
   margin: auto;
+  margin-top: 32px;
 }
 
 .hero-button,
@@ -208,7 +203,7 @@ img {
 .main-features .list,
 .main-what .list,
 .main-team .list,
-.portfolio .list {
+.portfolio .button {
   gap: 24px;
 }
 
@@ -239,7 +234,7 @@ img {
 
 .main-what-pades,
 .main-team-pages,
-.portfolio .list {
+.portfolio .button {
   margin-bottom: 72px;
 }
 
@@ -301,8 +296,13 @@ img {
   padding-bottom: 120px;
 }
 
-.portfolio .list {
+.portfolio .button {
   justify-content: center;
+}
+
+.portfolio .card {
+  flex-wrap: wrap;
+  column-gap: 24px;
   row-gap: 48px;
 }
 
