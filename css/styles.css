@@ -70,6 +70,10 @@ img {
   align-items: center;
 }
 
+.header .flexbox {
+  width: 100%;
+}
+
 .container .link {
   padding: 24px 0;
 }
