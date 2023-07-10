@@ -176,6 +176,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: auto;
 }
 
 .hero-button,
@@ -243,7 +244,8 @@ img {
 
 .main-features-title,
 .main-team-title,
-.name-tead {
+.name-tead,
+.name-card {
   margin-bottom: 8px;
 }
 
@@ -313,6 +315,12 @@ img {
 
 .portfolio .list {
   justify-content: center;
-  row-gap: 48px;
   gap: 24px;
+  row-gap: 48px;
+}
+
+.name-card {
+  padding: 32px 16px;
+  border: 1px solid var(--accent, #e7e9fc);
+  border-top: none;
 }
