@@ -315,7 +315,6 @@ img {
 
 .portfolio .list {
   justify-content: center;
-  gap: 24px;
   row-gap: 48px;
 }
 
