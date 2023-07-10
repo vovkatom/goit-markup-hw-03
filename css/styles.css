@@ -203,9 +203,11 @@ img {
   padding: 120px 0;
 }
 
-/* .main-what, */
+.main-what {
+  padding-bottom: 120px;
+}
 /* .main-team { */
-  /* padding: 120px 0 120px; */
+/* padding: 120px 0 120px; */
 /* } */
 
 .main-features .list,
@@ -229,13 +231,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-
-
-.main-features-title
-/* .main-team-title, */
+.main-features-title,
+.main-team-title,
 /* .name-tead, */
-/* .portfolio-project-title  */
-{
+.portfolio-project-title {
   margin-bottom: 8px;
 }
 
