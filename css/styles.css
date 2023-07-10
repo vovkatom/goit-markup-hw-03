@@ -50,6 +50,7 @@ img {
 }
 
 .container {
+  /* display: flex; */
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -61,14 +62,8 @@ img {
 }
 
 .header .container,
-.header-nav,
-.header-addres,
-.header .list,
-.portfolio .list,
-.hero,
-.main-features .list,
-.main-what .list,
-.main-team .list {
+.flexbox,
+.portfolio .list {
   display: flex;
 }
 
@@ -77,10 +72,9 @@ img {
   row-gap: 48px;
 }
 
-.header-nav,
-.header-addres,
-.hero {
+.flexbox {
   align-items: center;
+  /* flex-basis: auto; */
 }
 
 .container .link {
