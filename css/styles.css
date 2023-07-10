@@ -74,7 +74,7 @@ img {
   width: 100%;
 }
 
-.container .link {
+.header .container .link {
   padding: 24px 0;
 }
 
@@ -198,7 +198,10 @@ img {
   color: var(--dark, #2e2f42);
 }
 
-.main-features,
+.main-features {
+  padding: 120px 0 0;
+}
+
 .main-what,
 .main-team {
   padding: 120px 0 120px;
@@ -233,7 +236,7 @@ img {
 .main-team-title,
 .name-tead,
 .portfolio-project-title {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .main-what-pades,
@@ -282,7 +285,8 @@ img {
 }
 
 .footer-logo-web {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
+  margin-right: 0;
   display: inline-block;
 }
 
