@@ -78,7 +78,8 @@ img {
 }
 
 .header-nav,
-.header-addres {
+.header-addres,
+.hero {
   align-items: center;
 }
 
